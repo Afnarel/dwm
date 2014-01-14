@@ -11,6 +11,10 @@ My [dwm](http://dwm.suckless.org/) config files...
   * Put 'exec dwm' in your .xinitrc file: `echo exec dwm > ~/.xinitrc`.
   * Run `startx`
 
+Note: putting `startdwm` in /usr/bin and calling it in .xinitrc instead of dwm
+is convenient: with this solution, when I quit dwm (M-Shift-q), it is
+automatically restarted.
+
 ### Running programs on dwm startup ###
 
 Create a .dwm folder in your home directory (`mkdir ~/.dwm`) or copy the one from this repository (`cp -r ./.dwm ~`).
