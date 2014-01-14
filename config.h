@@ -25,7 +25,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	//{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
 	// Web
-	{ "Firefox",  NULL,       NULL,       1 << 0,       False,       -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 0,       False,       1 },
 	{ "Chromium",  NULL,       NULL,       1 << 0,       False,       -1 },
 	// Dev
 	// Doc
@@ -34,7 +34,7 @@ static const Rule rules[] = {
 	{ "sublime-text",  NULL,       NULL,       1 << 3,       False,       -1 },
 	{ "libreoffice",  NULL,       NULL,       1 << 3,       False,       -1 },
 	// Msg
-	{ "Sylpheed",  NULL,       NULL,       1 << 4,       False,       -1 },
+	{ "Sylpheed",  NULL,       NULL,       1 << 4,       False,       1 },
 	{ "Pidgin",  NULL,       NULL,       1 << 4,       False,       -1 },
 	{ "Skype",  NULL,       NULL,       1 << 4,       False,       -1 },
 	// Mult
