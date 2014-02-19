@@ -36,7 +36,7 @@ static const Rule rules[] = {
 	// Msg
 	{ "Sylpheed",  NULL,       NULL,       1 << 4,       False,       1 },
 	{ "Pidgin",  NULL,       NULL,       1 << 4,       False,       -1 },
-	{ "Skype",  NULL,       NULL,       1 << 4,       False,       -1 },
+	{ "Skype",  NULL,       NULL,       1 << 4,       False,       0 },
 	// Mult
 	{ "MPlayer",     NULL,       NULL,       1 << 5,            True,        -1 },
 	{ "Gimp",     NULL,       NULL,       1 << 5,            True,        -1 },
