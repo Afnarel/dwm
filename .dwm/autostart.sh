@@ -12,6 +12,9 @@ launch() {
 launch firefox
 launch skype
 launch sylpheed
+launch nm-applet
+# launch "stalonetray --geometry 16x16+150-586 --icon-size 16"
+launch "trayer --expand true --widthtype request --edge top --align right --distance 15 --SetPartialStrut false"
 
 #firefox &
 #skype &
