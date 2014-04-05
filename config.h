@@ -46,6 +46,7 @@ static const Rule rules[] = {
 	{ "Armitage",     NULL,       NULL,       1 << 7,            True,        -1 },
 	// Dl
 	{ "Deluge",     NULL,       NULL,       1 << 8,            True,        -1 },
+	{ "trayer",  NULL,       NULL,       1 << 8,       False,       1 },
 };
 
 /* layout(s) */
